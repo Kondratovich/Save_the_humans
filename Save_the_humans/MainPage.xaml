@@ -28,7 +28,7 @@
         </Grid.RowDefinitions>
         <Button x:Name="startButton" Content="Start!" 
                 Grid.Row="2" HorizontalAlignment="Center" Height="55" Width="110" FontSize="30" Click="startButton_Click"/>
-        <ProgressBar Grid.Column="1" Grid.Row="2" Height="20"/>
+        <ProgressBar x:Name="progressBar" Grid.Column="1" Grid.Row="2" Height="20"/>
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock
                 Text="Avoid These" TextWrapping="Wrap" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="24" HorizontalAlignment="Center"/>
